@@ -77,6 +77,7 @@ public class DriverFactory {
 			envName="qa";
 		try {
 		switch (envName.toLowerCase().trim()) {
+		
 		case "qa":
 			ip = new FileInputStream("src/test/resource/config/config.qa.properties");
 			break;
