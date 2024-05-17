@@ -4,16 +4,16 @@
 <suite name="Open Cart Sanity Suite" verbose="3" thread-count="5" parallel="tests">
 
 
-	<test name="Login Page Test chrome">
+<!--	<test name="Login Page Test chrome">
 		<parameter name="browser" value="chrome" />
 
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
-	</test>
+	</test> -->
 	
 
-<!--	<test name="Accounts Page Test">
+	<test name="Accounts Page Test">
 		<parameter name="browser" value="chrome" />
 
 		<classes>
@@ -22,7 +22,7 @@
 	</test>
 
 
-	<test name="Search Results Page Test">
+<!--	<test name="Search Results Page Test">
 		<parameter name="browser" value="chrome" />
 
 		<classes>
