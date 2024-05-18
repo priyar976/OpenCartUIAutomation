@@ -110,7 +110,7 @@ public class DriverFactory {
 		}
 		
 		
-		Log.info("---Testing in environment--- "+envName);
+		Log.info("--- Testing in environment --- "+envName);
 		return prop;
 	}
 	
